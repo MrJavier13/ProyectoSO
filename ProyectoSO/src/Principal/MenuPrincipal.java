@@ -4,10 +4,12 @@
  */
 package Principal;
 
-
 import NoInternetGame.Principal;
 import SnakeGame.Interfaz;
 import TicTacToe.FormTicTac;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -20,7 +22,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
      * Creates new form MenuPrincipal
      */
     public MenuPrincipal() {
-        
+
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -174,10 +176,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        
+
+
         JOptionPane.showMessageDialog(null,"No abre correctamente el metodo, ejecutar Principal en NoInternetGame");
         
-        
+
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

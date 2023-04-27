@@ -67,5 +67,7 @@ public class Principal {
         Cactus.x_inicial = 1300;
 
     }
+    
+
 
 }

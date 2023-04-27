@@ -30,10 +30,10 @@ public class Juego extends JPanel {
     public static int nivel = 1;
     
     public Juego() {
-        direccionSonidoChoque = getClass().getResource("/Sonidos/Zzz.mp3");
+        direccionSonidoChoque = getClass().getResource("/Sonidos/Zzz.wav");
         sonidoChoque = Applet.newAudioClip(direccionSonidoChoque);
         
-        direccionSonidoSalto = getClass().getResource("/Sonidos/DOIT-Cortado.mp3");
+        direccionSonidoSalto = getClass().getResource("/Sonidos/DOIT-Cortado.wav");
         sonidoSalto = Applet.newAudioClip(direccionSonidoSalto);
         
         addKeyListener(new KeyListener() {
